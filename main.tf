@@ -12,7 +12,7 @@ resource "google_storage_bucket" "auto-expire" {
   location      = "US"
   force_destroy = true
 
-  public_access_prevention = "enforced"
+  #public_access_prevention = "enforced"
 
    lifecycle_rule {
     condition {
